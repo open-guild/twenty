@@ -65,7 +65,7 @@ export class OpportunityObjectMetadata extends BaseObjectMetadata {
     label: 'Probability',
     description: 'Opportunity probability',
     icon: 'IconProgressCheck',
-    defaultValue: { value: '0' },
+    defaultValue: { value: "'0'" },
   })
   probability: string;
 
@@ -87,7 +87,7 @@ export class OpportunityObjectMetadata extends BaseObjectMetadata {
       },
       { value: 'CUSTOMER', label: 'Customer', position: 4, color: 'yellow' },
     ],
-    defaultValue: { value: 'NEW' },
+    defaultValue: { value: "'NEW'" },
   })
   stage: string;
 
